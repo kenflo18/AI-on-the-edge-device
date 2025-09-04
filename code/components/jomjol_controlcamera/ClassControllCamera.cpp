@@ -67,7 +67,7 @@ uint8_t *demoImage = NULL;    // Buffer holding the demo image in bytes
 // See https://github.com/espressif/esp32-camera/issues/150#issuecomment-726473652 et al.
 #if !defined(XCLK_FREQ_MHZ)
 // int xclk = 8;
-int xclk = 20; // Orginal value
+int xclk = 2; // Orginal value
 #else
 int xclk = XCLK_FREQ_MHZ;
 #endif
